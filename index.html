@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Tecnología Médica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Tecnología Médica</h1>
+
+  <div class="semestre">
+    <h2>Semestre I</h2>
+    <button onclick="mostrarInfo('introduccion_a_la_tecnologia_medica')">Introducción a la Tecnología Médica</button>
+    <button onclick="mostrarInfo('biologia_celular')">Biología Celular</button>
+    <button onclick="mostrarInfo('quimica_general')">Química General</button>
+    <button onclick="mostrarInfo('principios_matematicos')">Principios Matemáticos</button>
+    <button onclick="mostrarInfo('taller_de_competencias_comunicativas')">Taller de Competencias Comunicativas</button>
+    <button onclick="mostrarInfo('taller_de_competencias_para_el_aprendizaje')">Taller de Competencias para el Aprendizaje</button>
+    <button onclick="mostrarInfo('taller_de_desarrollo_personal_i')">Taller de Desarrollo Personal I (*)</button>
+  </div>
+
+  <!-- Se repiten bloques como este para cada semestre... -->
+
+  <div id="infoRamo" class="info"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 
